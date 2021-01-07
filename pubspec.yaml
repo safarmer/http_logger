@@ -5,8 +5,8 @@ author: Gurleen Sethi <sarusethi@rocketmail.com>
 homepage: http://www.github.com/gurleensethi
 
 dependencies:
-  http_middleware: "^1.0.0"
+  http_middleware:
+    git: https://github.com/safarmer/http_middleware.git
 
 environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
-  flutter: ">=0.1.4 <2.0.0"
+  sdk: ">=2.7.0 <3.0.0"
